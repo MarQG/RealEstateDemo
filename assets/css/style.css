@@ -1,3 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
 body {
     
+    font-size: 1.6rem;
 }
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    background: #1A2332;
+    height: 70px;
+    color: white;
+}
+
+.navbar .logo {
+    font-size: 3.0rem;
+    float: left;
+    margin: 18px 0 0 30px;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 10px; 
+}
+
+.navbar li {
+    float: left;
+    padding: 1.0rem;
+    margin-top: 18px;
+}
+
+.navbar a {
+    color: rgb(128, 122, 44);
+}
+
+.navbar a:hover {
+    color: white;
+}
+
